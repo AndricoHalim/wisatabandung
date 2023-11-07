@@ -1,3 +1,3 @@
 # wisatabandung
 
-A new Flutter project.
+Latihan Membuat Aplikasi Tempat Wisata
