@@ -9,7 +9,7 @@ class MainScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Wisata Bandung'),
+        title: const Text('Wisata Bandung'),
       ),
       body: ListView.builder(
         itemBuilder: (context, index) {
@@ -17,7 +17,7 @@ class MainScreen extends StatelessWidget {
           return InkWell(
             onTap: () {
               Navigator.push(context, MaterialPageRoute(builder: (context) {
-                return DetailScreen();
+                return DetailScreen(place: place);
               }));
             },
             child: Card(
