@@ -189,8 +189,8 @@ class _DetailWebPageState extends State<DetailWebPage> {
                       child: Column(
                         children: [
                           ClipRRect(
-                            child: Image.asset(widget.place.imageAsset),
                             borderRadius: BorderRadius.circular(10),
+                            child: Image.asset(widget.place.imageAsset),
                           ),
                           const SizedBox(height: 16),
                           Scrollbar(
